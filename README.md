@@ -17,7 +17,7 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICEN
 
 ## Como Contribuir 🤔
 
-Para contribuir basta executar o device_info_complete.sh e enviar os resultados salvos em *Download* para o número 84999116558 no Whatsapp.
+Para contribuir basta executar o device_info_complete.sh e enviar os resultados salvos em *Download* por uma issue.
 ---
 
 Criado por Leandro Lucas (Llucs)
