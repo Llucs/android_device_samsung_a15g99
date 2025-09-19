@@ -21,3 +21,6 @@ Para contribuir basta executar o device_info_complete.sh e enviar os resultados 
 ---
 
 Criado por Leandro Lucas (Llucs)
+
+
+## NÃO ULTILIZAR, EM DESENVOLVIMENTO!
