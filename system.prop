@@ -1,0 +1,61 @@
+# System properties for a15
+ro.product.board=a15
+ro.product.device=a15
+ro.product.name=a15
+ro.vendor.product.device=a15
+ro.vendor.product.name=a15
+ro.vendor.product.board=a15
+
+# MediaTek specific properties
+ro.hardware.chipname=MT6789
+ro.mediatek.platform=MT6789
+
+# Dalvik properties
+dalvik.vm.heapstartsize=8m
+dalvik.vm.heapgrowthlimit=256m
+dalvik.vm.heapsize=512m
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.heapminfree=4m
+dalvik.vm.heapmaxfree=8m
+
+# Display properties
+ro.sf.lcd_density=440
+
+# Camera properties
+persist.vendor.camera.priv.debug=0
+
+# RIL properties
+ro.telephony.default_network=9,9
+
+# Fingerprint properties
+ro.hardware.fp.vendor=samsung
+
+# Audio properties
+ro.vendor.audio.sdk.fluencetype=none
+ro.vendor.audio.sdk.record.client=none
+ro.vendor.audio.sdk.playback.client=none
+ro.vendor.audio.zoom.support=false
+ro.vendor.audio.scenario.support=false
+
+# Bluetooth properties
+bluetooth.device.class_of_device=0x200404
+
+# Wi-Fi properties
+wifi.interface=wlan0
+
+# USB properties
+ro.usb.mtp=true
+ro.usb.ptp=true
+
+# Other properties
+ro.opengles.version=196610
+ro.hardware.egl=mali-g57
+ro.hardware.vulkan=mali-g57
+
+# Build properties
+ro.build.display.id=$(BUILD_ID)
+ro.build.version.incremental=$(BUILD_NUMBER)
+ro.build.description=$(BUILD_DESCRIPTION)
+ro.build.fingerprint=$(BUILD_FINGERPRINT)
+
+
