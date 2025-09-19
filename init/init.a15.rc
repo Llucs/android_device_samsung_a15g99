@@ -1,0 +1,9 @@
+on boot
+    # Montar partições
+    mount ext4 /system /dev/block/by-name/system
+    mount ext4 /vendor /dev/block/by-name/vendor
+    mount f2fs /data /dev/block/by-name/userdata
+
+    # Iniciar serviços básicos
+    start servicemanager
+    start zygote
