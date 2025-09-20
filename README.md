@@ -1,26 +1,38 @@
-# android_device_samsung_a15g99
+## Device Tree for Samsung Galaxy A15 4G (SM-A155M)
 
-Device tree para o Samsung Galaxy A15 (MT6789) modelo **SM-A155M/DSN** com firmware **A155MUBS5BYB1**, criada por Leandro Lucas.  
-Esta device tree serve como base para compilar ROMs customizadas para esse modelo específico do Galaxy A15.
+⚠️ Work In Progress (WIP) ⚠️
+This device tree is under active development. Expect bugs, missing features, and instability. Do not use it as a daily driver unless you know what you are doing.
 
-# Atenção ⚠️ 
-
-Esta tree está incompleta e ainda está em desenvolvimento, pois ainda faltam algumas informações nela, aguarde até ficar completa.
-
-## O que é uma device tree?
-
-A device tree contém os arquivos de configuração necessários para que uma ROM customizada reconheça e funcione corretamente no hardware específico do aparelho. Ela inclui informações sobre drivers, sensores, hardware, partições, entre outros.
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## Como Contribuir 🤔
-
-Para contribuir basta executar o device_info_complete.sh e enviar os resultados salvos em *Download* por uma issue.
 ---
 
-Criado por Leandro Lucas (Llucs)
+Sources
+
+Kernel: Samsung Galaxy A15 Kernel Source (SM-A155F)
+
+Device Tree: WIP (this repo)
+
+Vendor blobs: extracted from stock firmware
 
 
-## NÃO ULTILIZAR, EM DESENVOLVIMENTO!
+
+---
+
+Notes
+
+This tree is based on the SM-A155F kernel sources, adapted for SM-A155M (regional variant).
+
+Some features might require custom vendor blobs and patches.
+
+Contributions, bug reports, and testing are welcome.
+
+
+
+---
+
+Disclaimer
+
+I am not responsible for bricked devices, dead SD cards, thermonuclear war,
+or you getting fired because the alarm app failed.
+Do some research if you have any concerns about features included in this device tree before flashing it!
+YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you.
+
